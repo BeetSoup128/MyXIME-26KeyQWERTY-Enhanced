@@ -69,7 +69,7 @@ keyboard:
 
       # ── 第4行 : 字母+退格 ──
       # 上档与分词
-      shift: { tap: { action: commit, value: "'", label: "分词" } }
+      shift: { swipe_up: { action: send_rime, value: "'", label: "分词" } }
       z: { tap: "z", long_press: { values: ["z","Z"] }, swipe_up: { action: undo,       label: "↩" }, swipe_down: { display: "bubble", action: undo, label: "↩" } }
       x: { tap: "x", long_press: { values: ["x","X"] }, swipe_up: { action: cut,        label: "✄" }, swipe_down: { display: "bubble", action: cut, label: "✄" } }
       c: { tap: "c", long_press: { values: ["c","C"] }, swipe_up: { action: copy,       label: "⧉" }, swipe_down: { display: "bubble", action: copy, label: "⧉" } }
